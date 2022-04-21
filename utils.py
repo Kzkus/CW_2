@@ -32,7 +32,7 @@ def search_for_posts(query):
         querys = post['content']
         if query.lower() in querys.lower():
             posts.append(post)
-    return posts
+    return posts[:10]
     # возвращает список постов по ключевому слову
 
 
