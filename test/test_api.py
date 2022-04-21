@@ -1,10 +1,5 @@
 import pytest
-import os
-import sys
 from app import app
-
-path = os.path.abspath('.')
-sys.path.insert(1, path)
 
 
 def test_api_posts():
